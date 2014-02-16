@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>That doc guy</title>
+
+            <script src="/js/prettifier/google-prettify/prettify.js"></script>
+        
+            <link rel="stylesheet" href="/js/prettifier/prettifier.css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="/css/docguy.css" rel="stylesheet">
+    </head>
+
+<body class="page" onload="prettyPrint()">
+    <header class="page__header  grid">
+        <div class="page__header__inner">
+            <div class="grid__item  one-tenth">
+                <img src="/img/css/logo.png" class="site__logo">
+            </div><!--
+            
+            --><hgroup class="grid__item  six-tenths">
+                <h1 class="site__name"><a href="/index.html">Wouter J</a></h1>
+                <h2 class="site__slogan">I'm <strong>that doc guy</strong></h2>
+            </hgroup><!--
+            
+            --><nav class="grid__item  two-tenths">
+                <ul class="nav">
+                    <li class="nav__item  nav__item--current"><a href="/index.html">Home</a></li>
+                    <li class="nav__item"><a href="#">Archive</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page__sub-header  article--featured">
+    <h1 class="sub-header__content  sub-header__content--bottom">
+        <div>Symfony Live Hacking Day!</div>
+    </h1>
+    <div class="article__meta">
+        <dl>
+            <dt>Publish Date</dt>
+            <dd>29 Sep 2012</dt>
+
+            <dt>Estimated Readtime</dt>
+            <dd>5 min</dd>
+
+            <dt>Level</dt>
+            <dd>Intermediate</dd>
+
+            <dt>Badges</dt>
+            <dd>sensio, symfony, symfony live</dd>
+        </dl>
+    </div>
+</section>
+<div class="page__main">
+    <article class="article  article--single">
+        <p>Fun times at the Symfony Live San Francisco 2012 Hacking Day! Code
+was hacked and pizza was had. Some pics of the conference are
+available on the <a href="https://www.facebook.com/media/set/?set=a.450514941665306.112810.129739647076172">Sensio Labs Facebook page</a>.</p>
+    </article>
+</div>
+    
+    <footer class="page__footer  grid">
+<!--
+        <article class="grid__item  one-half">
+            <h4>I'm Wouter J</h4>
+            <p>I'm a student, I'm the Symfony Doc guy and I'm a OSS contributor. I like working on nice PHP projects and studing new concepts and languages.</p>
+        </article>
+        
+        <figure class="grid__item  one-half">
+            <img src="http://placehold.it/300">
+        </figure>
+-->
+    </footer>
+    
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/bigtext.js"></script>
+    <script>
+        $('.sub-header__content').bigtext();
+    </script>
+    </body>
+</html>

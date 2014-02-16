@@ -1,0 +1,16 @@
+{
+    "name": "wouterj/docguy-bundle",
+    "description": "DocGuy Bundle",
+    "keywords": ["sculpin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wouter J",
+            "email": "wouter@wouterj.nl"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Wj\\DocguyBundle": "" }
+    },
+    "target-dir": "Wj/DocguyBundle"
+}

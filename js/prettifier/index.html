@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <title>Prettifier - Google Code Prettify used on Wouterj.nl</title>
+        <script src="google-code-prettify/distrib/google-code-prettify/prettify.js"></script>
+        <link rel=stylesheet href=prettifier.css>
+    </head>
+    <body onload="prettyPrint()">
+        <p>Hello world <code class=prettyprint>&lt;html lang=nl&gt;</code> and <code>SomeClass</code></p>
+        <pre class=prettyprint>
+public function showProductAction($id)
+{
+    $category = $this->getDoctrine()
+        ->getRepository('AcmeStoreBundle:Category')
+        ->find($id);
+
+    $products = $category->getProducts();
+
+    // ...
+} </pre>
+        <pre class="prettyprint linenums">
+public function showProductAction($id)
+{
+    $category = $this->getDoctrine()
+        ->getRepository('AcmeStoreBundle:Category')
+        ->find($id);
+
+    $products = $category->getProducts();
+
+    // ...
+} </pre>
+        <pre class="prettyprint linenums">
+public function showProductAction($id)
+{
+    $category = $this->getDoctrine()
+        ->getRepository('AcmeStoreBundle:Category')
+        ->find($id);
+
+    $products = $category->getProducts();
+
+    // ...
+} </pre>
+    </body>
+</html>
